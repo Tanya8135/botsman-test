@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import MyBtn from './components/myBtn/MyBtn';
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <button>TEST</button>
+        <MyBtn />
       </header>
     </div>
   );
