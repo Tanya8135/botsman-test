@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/botsman-test/static/css/main.aa202290.css",
-    "main.js": "/botsman-test/static/js/main.ea93114c.js",
+    "main.css": "/botsman-test/static/css/main.68cb7aab.css",
+    "main.js": "/botsman-test/static/js/main.cd630a2a.js",
     "static/js/453.df9f3bb3.chunk.js": "/botsman-test/static/js/453.df9f3bb3.chunk.js",
-    "static/media/logo.svg": "/botsman-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logoBotsmanMin.svg": "/botsman-test/static/media/logoBotsmanMin.2e84ece340b47e58b8dc5479b8ac83ee.svg",
     "index.html": "/botsman-test/index.html",
-    "main.aa202290.css.map": "/botsman-test/static/css/main.aa202290.css.map",
-    "main.ea93114c.js.map": "/botsman-test/static/js/main.ea93114c.js.map",
+    "main.68cb7aab.css.map": "/botsman-test/static/css/main.68cb7aab.css.map",
+    "main.cd630a2a.js.map": "/botsman-test/static/js/main.cd630a2a.js.map",
     "453.df9f3bb3.chunk.js.map": "/botsman-test/static/js/453.df9f3bb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa202290.css",
-    "static/js/main.ea93114c.js"
+    "static/css/main.68cb7aab.css",
+    "static/js/main.cd630a2a.js"
   ]
 }
