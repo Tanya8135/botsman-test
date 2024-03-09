@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import MyBtn from './components/myBtn/MyBtn';
-import './App.css';
+// import logo from '../../logo.svg';
+import logo from '../../images/logoBotsmanMin.svg'
+import MyBtn from '../myBtn/MyBtn';
+
+import css from './App.module.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className={css.App}>
+      <header className={css.AppHeader}>
+        <img src={logo} className={css.AppLogo} alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. test 333
         </p>
         <a
-          className="App-link"
+          className={css.AppLink}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
