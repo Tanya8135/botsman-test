@@ -1,0 +1,66 @@
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+.hero {
+  background-color: #899678;
+  margin-bottom: 95px;
+  padding: 0 18px;
+}
+
+.heroTitle {
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #f9f9f9;
+  padding: 32px 52px 32px 18px;
+  text-transform: uppercase;
+}
+
+.letter {
+  color: #f6973f;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0px 87px 0px;
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  padding: 11px 23px;
+  margin: 0 auto;
+  background-color: #f6973f;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: none;
+  display: block;
+
+  &:active {
+    box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1),
+      inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background-color: #dd8839;
+  }
+}
+
+/* .swiper { */
+/* position: relative; */
+/* } */
+
+.swiperSlide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f6973f !important;
+}
