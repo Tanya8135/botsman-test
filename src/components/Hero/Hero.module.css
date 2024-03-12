@@ -64,3 +64,10 @@ html.sr .load-hidden {
 .swiper-pagination-bullet-active {
   background-color: #f6973f !important;
 }
+
+.imgContainer {
+  background-image: url("images/mob/hero-slide/hero-mob1_375.png"),
+    url("images/mob/hero-slide/hero-mob1@2_375.png");
+  min-width: 375px;
+  min-height: 303px;
+}

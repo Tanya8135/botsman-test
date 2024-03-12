@@ -1,4 +1,6 @@
-import css from "./Hero.module.css";
+import React from 'react';
+import imgs from 'data/test.json';
+import css from './Hero.module.css';
 
 function Hero() {
   return (
@@ -10,46 +12,27 @@ function Hero() {
 
         <div className={`${css.swiper} ${css.heroImg}`}>
           <ul className={`${css.swiperWrapper} ${css.heroImgSlider}`}>
-            <li className={css.swiperSlide}>
-              <img
-                srcset="
-              ./images/mob/hero-slide/hero-mob1_375.png   375w,
-              ./images/mob/hero-slide/hero-mob1@2_375.png 750w
-            "
-                sizes="(min-width: 375px) 375px, 100vh"
-                src="./images/mob/hero-slide/hero-mob1_375.png"
-                alt="gray sofa and pouf "
-              />
-            </li>
-            <li className={css.swiperSlide}>
-              <img
-                srcset="
-              ./images/mob/hero-slide/hero-mob2_375.png   375w,
-              ./images/mob/hero-slide/hero-mob2@2_375.png 750w
-            "
-                sizes="(min-width: 375px) 375px, 100vh"
-                src="./images/mob/hero-slide/hero-mob2_375.png"
-                alt="gray table and white pouf"
-              />
-            </li>
-            <li className={css.swiperSlide}>
-              <img
-                srcset="
-              ./images/mob/hero-slide/hero-mob3_375.png   375w,
-              ./images/mob/hero-slide/hero-mob3@2_375.png 750w
-            "
-                sizes="(min-width: 375px) 375px, 100vh"
-                src="./images/mob/hero-slide/hero-mob3_375.png"
-                alt="gray table and green pouf"
-              />
-            </li>
+            {imgs.map((slide, index) => (
+              <li key={index} className={css.swiperSlide}>
+                {/* <img
+                  srcSet={slide.srcset}
+                  sizes={slide.sizes}
+                  src={process.env.PUBLIC_URL + slide.src}
+                  alt={slide.alt}
+                /> */}
+                
+              </li>
+              
+            ))}
           </ul>
-
           <div className={css.swiperPagination}></div>
         </div>
+        <div className={css.imgContainer}>TEST</div>
 
         <div className={css.btnBox}>
-          <button className={`${css.btn} ${css.heroBtn}`}>Перейти в каталог</button>
+          <button className={`${css.btn} ${css.heroBtn}`}>
+            Перейти в каталог
+          </button>
         </div>
       </div>
     </section>
