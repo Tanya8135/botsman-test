@@ -1,6 +1,6 @@
-import React from 'react';
-import imgs from 'data/test.json';
-import css from './Hero.module.css';
+import React from "react";
+
+import css from "./Hero.module.css";
 
 function Hero() {
   return (
@@ -12,22 +12,22 @@ function Hero() {
 
         <div className={`${css.swiper} ${css.heroImg}`}>
           <ul className={`${css.swiperWrapper} ${css.heroImgSlider}`}>
-            {imgs.map((slide, index) => (
+            <li>
+            <img src={process.env.PUBLIC_URL + '/images/mob/hero-slide/hero-mob1_375.png'} alt="" />
+            </li>
+            {/* {imgs.map((slide, index) => (
               <li key={index} className={css.swiperSlide}>
-                {/* <img
+                <img
                   srcSet={slide.srcset}
                   sizes={slide.sizes}
                   src={process.env.PUBLIC_URL + slide.src}
                   alt={slide.alt}
-                /> */}
-                
+                />
               </li>
-              
-            ))}
+            ))} */}
           </ul>
           <div className={css.swiperPagination}></div>
         </div>
-        <div className={css.imgContainer}>TEST</div>
 
         <div className={css.btnBox}>
           <button className={`${css.btn} ${css.heroBtn}`}>
