@@ -13,7 +13,12 @@ function Hero() {
         <div className={`${css.swiper} ${css.heroImg}`}>
           <ul className={`${css.swiperWrapper} ${css.heroImgSlider}`}>
             <li>
-            <img src={process.env.PUBLIC_URL + '/images/mob/hero-slide/hero-mob1_375.png'} alt="" />
+            <img srcSet={`
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1@2_375.png 2x,
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1_375.png 1x
+            `}
+            sizes="(min-width: 375px) 375px, 100vh"
+            src={process.env.PUBLIC_URL + '/images/mob/hero-slide/hero-mob1_375.png'} alt="" />
             </li>
             {/* {imgs.map((slide, index) => (
               <li key={index} className={css.swiperSlide}>

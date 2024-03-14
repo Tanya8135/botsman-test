@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logoBotsmanMin.svg';
+import logo from '../../img/logoBotsmanMin.svg';
 import { SlPhone } from 'react-icons/sl';
 import { FiMenu } from 'react-icons/fi';
 import css from './Header.module.css';
