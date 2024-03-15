@@ -12,24 +12,48 @@ function Hero() {
 
         <div className={`${css.swiper} ${css.heroImg}`}>
           <ul className={`${css.swiperWrapper} ${css.heroImgSlider}`}>
-            <li>
-            <img srcSet={`
-            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1@2_375.png 2x,
-            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1_375.png 1x
+            <li className={css.swiperSlide}>
+              <img
+                srcSet={`
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1@2_375.png 750w,
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob1_375.png 375w
             `}
-            sizes="(min-width: 375px) 375px, 100vh"
-            src={process.env.PUBLIC_URL + '/images/mob/hero-slide/hero-mob1_375.png'} alt="" />
+                sizes="(min-width: 375px) 375px, 100vh"
+                src={
+                  process.env.PUBLIC_URL +
+                  "/images/mob/hero-slide/hero-mob1_375.png"
+                }
+                alt="gray sofa and pouf"
+              />
             </li>
-            {/* {imgs.map((slide, index) => (
-              <li key={index} className={css.swiperSlide}>
-                <img
-                  srcSet={slide.srcset}
-                  sizes={slide.sizes}
-                  src={process.env.PUBLIC_URL + slide.src}
-                  alt={slide.alt}
-                />
-              </li>
-            ))} */}
+            <li className={css.swiperSlide}>
+            <img
+                srcSet={`
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob2@2_375.png 2x,
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob2_375.png 1x
+            `}
+                sizes="(min-width: 375px) 375px, 100vh"
+                src={
+                  process.env.PUBLIC_URL +
+                  "./images/mob/hero-slide/hero-mob2_375.png"
+                }
+                alt="gray table and white pouf"
+              />
+            </li>
+            <li className={css.swiperSlide}>
+            <img
+                srcSet={`
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob3@2_375.png 750w,
+            ${process.env.PUBLIC_URL}/images/mob/hero-slide/hero-mob3_375.png 375w
+            `}
+                sizes="(min-width: 375px) 375px, 100vh"
+                src={
+                  process.env.PUBLIC_URL +
+                  "./images/mob/hero-slide/hero-mob3_375.png"
+                }
+                alt="gray table and green pouf"
+              />
+            </li>
           </ul>
           <div className={css.swiperPagination}></div>
         </div>
