@@ -4,6 +4,8 @@ import { SlPhone } from 'react-icons/sl';
 import { FiMenu } from 'react-icons/fi';
 import css from './Header.module.css';
 
+import BurgerMenu from 'components/BurgerMenu/BurgerMenu';
+
 function Header() {
   return (
     <header className={`${css.header} ${css.pageHeader}`}>
@@ -35,6 +37,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <BurgerMenu/>
     </header>
   );
 }
