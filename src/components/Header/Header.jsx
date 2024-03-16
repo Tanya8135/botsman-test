@@ -1,10 +1,17 @@
-import React from "react";
-import logo from "../../images/logoBotsmanMin.svg";
+import React, { useState } from "react";
+import logo from "../../img/logoBotsmanMin.svg";
 import { SlPhone } from "react-icons/sl";
 import { FiMenu } from "react-icons/fi";
 import css from "./Header.module.css";
 
+import BurgerMenu from "components/BurgerMenu/BurgerMenu";
+
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className={`${css.header} ${css.pageHeader}`}>
       <div className={`${css.headerContainer} ${css.container}`}>
@@ -26,15 +33,17 @@ function Header() {
               <button
                 type="button"
                 className={`${css.btnBurgerMenu}`}
-                aria-expanded="false"
+                aria-expanded={isMenuOpen}
                 aria-controls="mobile-menu"
+                onClick={toggleMenu}
               >
-                <FiMenu className={css.burgerMenuIcon}/>
+                <FiMenu className={css.burgerMenuIcon} />
               </button>
             </div>
           </div>
         </div>
       </div>
+      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
     </header>
   );
 }

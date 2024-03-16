@@ -1,0 +1,132 @@
+.menuCloseIcon {
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.menuToggle {
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: none;
+  color: #403730;
+
+  &:hover,
+  &:focus {
+    color: #f6973f;
+    background-color: transparent;
+  }
+}
+
+.pageHeader .headerContainer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .menuContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 240px;
+  height: 100vh;
+  padding: 32px 15px;
+  background-color: #ebebeb;
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+.menuContainer {
+    position: fixed;
+    /* top: 67px; */
+    top: 0;
+    right: 0;
+    background-color: #ebebeb;
+    /* padding: 32px; */
+    max-width: 240px;
+    height: 100vh;
+    z-index: 999;
+}
+
+/* .menuContainer.isOpen {
+  transform: translateX(0);
+} */
+
+.menuContainer .menuClose {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 5px;
+  z-index: 1111;
+
+  &:hover,
+  &:active {
+    color: #f6973f;
+  }
+}
+
+.mobileMenu {
+  display: flex;
+}
+.mobileMenu__list {
+  padding: 0;
+  margin: 0 auto;
+}
+.mobileMenu__item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+
+  &:last-of-type {
+    margin-bottom: 32px;
+  }
+}
+
+.burgerMenu {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* padding-top: 16px; */
+  padding: 20px;
+  /* padding-top: -52px; */
+  height: 100vh;
+}
+.burgerMenu__list {
+  margin-top: 16px;
+}
+.burgerMenu__item {
+  margin-bottom: 22px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.burgerMenu__link {
+  color: #2c2b29;
+  padding: 5px 0;
+}
+
+/* .bmS {
+  padding-top: 172px;
+} */
+.bmS__list {
+  display: flex;
+  justify-content: space-around;
+}
+.bmS__link {
+  color: #5b5b5b;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:active,
+  &:hover {
+    color: #f6973f;
+  }
+}
+.bmS__tel {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
