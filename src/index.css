@@ -46,3 +46,7 @@ a {
 address {
   font-style: normal;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #f6973f !important;
+}
