@@ -29,7 +29,7 @@ function IndividualFurniture() {
             </div>
             <div className={css.ifImg}>
               <img
-                srcset={`
+                srcSet={`
               ${process.env.PUBLIC_URL}/images/mob/if_white_poufs@2_340.png 680w,
               ${process.env.PUBLIC_URL}/images/mob/if_white_poufs_340.png 340w
               `}
