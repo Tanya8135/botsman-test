@@ -74,6 +74,9 @@
 .sectionSubtitle__ourHistory {
   padding-top: 48px;
 }
+.letter {
+  color: #f6973f;
+}
 
 .sectionText {
   font-size: 14px;
