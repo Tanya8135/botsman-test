@@ -1,0 +1,11 @@
+.burgerMenu__item {
+  margin-bottom: 22px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.burgerMenu__link {
+  color: #2c2b29;
+  padding: 5px 0;
+}

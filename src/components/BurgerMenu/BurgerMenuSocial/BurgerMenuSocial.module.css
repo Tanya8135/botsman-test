@@ -1,0 +1,31 @@
+.bmS__list {
+  display: flex;
+  padding-bottom: 32px;
+}
+.bmS__item {
+  margin-right: 36px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.bmS__link {
+  color: #5b5b5b;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:active,
+  &:hover {
+    color: #f6973f;
+  }
+}
+.bmS__tel {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.socialIconBM {
+  min-width: 42px;
+  min-height: 42px;
+}
