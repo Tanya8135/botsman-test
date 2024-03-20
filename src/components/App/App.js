@@ -4,6 +4,7 @@ import IndividualFurniture from 'components/IndividualFurniture/IndividualFurnit
 import OurHistory from 'components/OurHistory/OurHistory';
 import LastPublic from 'components/LastPublic/LastPublic';
 import Form from 'components/Form/Form';
+import CompanyInfo from 'components/CompanyInfo/CompanyInfo';
 
 import css from './App.module.css'
 
@@ -16,6 +17,7 @@ function App() {
       <OurHistory />
       <LastPublic />
       <Form />
+      <CompanyInfo />
     </div>
   );
 }
