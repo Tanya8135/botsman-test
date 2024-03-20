@@ -5,6 +5,7 @@ import OurHistory from 'components/OurHistory/OurHistory';
 import LastPublic from 'components/LastPublic/LastPublic';
 import Form from 'components/Form/Form';
 import CompanyInfo from 'components/CompanyInfo/CompanyInfo';
+import Footer from 'components/Footer/Footer';
 
 import css from './App.module.css'
 
@@ -18,6 +19,7 @@ function App() {
       <LastPublic />
       <Form />
       <CompanyInfo />
+      <Footer />
     </div>
   );
 }
