@@ -1,0 +1,117 @@
+.formBlock {
+  display: block;
+  margin: 0 auto;
+  width: 268px;
+}
+
+.dataField {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #aeaeae;
+}
+
+.dataField__input {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #aeaeae;
+  background-color: transparent;
+  min-width: 268px;
+  min-height: 28px;
+  margin: 0;
+  color: #2c2b29;
+  padding-left: 4px;
+  outline: none;
+
+  /* transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  &:focus,
+  &:hover {
+    border-bottom: 1px solid #f6973f;
+    outline: none;
+    background-color: transparent;
+  }
+}
+.dataField__input.inputHasValue .dataFieldText {
+  opacity: 0;
+}
+
+.dataFieldText {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 5px 0 1px 3px;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: #aeaeae;
+
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+
+  /* .dataField__input.inputHasValue & {
+      opacity: 0;
+    } */
+}
+
+/* POLICY */
+.policyBox {
+  width: 269px;
+}
+
+.policy {
+  display: flex;
+  align-items: baseline;
+  margin: -1px;
+  position: relative;
+  cursor: none;
+}
+.policy__checkbox {
+  position: absolute;
+  margin: -1px;
+  bottom: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  &:checked + .policy__icon {
+    border: 0.7px solid #aeaeae;
+    background-color: #f6973f;
+    /* background-image: url("../images/checkmark.svg"); */
+    background-image: url(../../../img/checkmark.svg);
+    background-size: contain;
+    background-origin: border-box;
+  }
+}
+.policy__icon {
+  display: inline-block;
+  min-width: 18px;
+  min-height: 18px;
+  position: relative;
+  top: -7px;
+  left: -6px;
+  transform: translate(50%, 50%);
+  border: 1px solid #aeaeae;
+}
+.policy__text {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #aeaeae;
+  margin-left: 16px;
+}
+
+.checkboxBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.form {
+  padding-bottom: 32px;
+}
