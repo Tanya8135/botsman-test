@@ -21,7 +21,7 @@ html.sr .load-hidden {
   color: #f6973f;
 }
 
-.btnBox {
+/* .btnBox {
   display: flex;
   justify-content: center;
   padding: 32px 0px 87px 0px;
@@ -48,11 +48,4 @@ html.sr .load-hidden {
       inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     background-color: #dd8839;
   }
-}
-
-.swiperSlide {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1px;
-}
+} */

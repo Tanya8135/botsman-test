@@ -1,29 +1,7 @@
-.menuCloseIcon {
-  min-width: 30px;
-  min-height: 30px;
-}
-
-.menuToggle {
-  margin: 0;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  border-radius: 50%;
-  cursor: none;
-  color: #403730;
-
-  &:hover,
-  &:focus {
-    color: #f6973f;
-    background-color: transparent;
-  }
-}
-
-.pageHeader .headerContainer {
-  justify-content: space-between;
-  align-items: center;
-}
 .menuContainer {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: column;
   position: fixed;
   top: 0;
   right: 0;
@@ -31,19 +9,6 @@
   max-width: 240px;
   height: 100vh;
   z-index: 999;
-}
-
-.menuContainer .menuClose {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  padding: 5px;
-  z-index: 1111;
-
-  &:hover,
-  &:active {
-    color: #f6973f;
-  }
 }
 
 .mobileMenu {
@@ -70,51 +35,4 @@
   flex-direction: column;
   padding: 20px;
   height: 100vh;
-}
-.burgerMenu__list {
-  margin-top: 16px;
-}
-.burgerMenu__item {
-  margin-bottom: 22px;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-.burgerMenu__link {
-  color: #2c2b29;
-  padding: 5px 0;
-}
-
-.bmS__list {
-  display: flex;
-  /* justify-content: space-around; */
-  padding-bottom: 32px;
-}
-.bmS__item {
-  margin-right: 36px;
-
-  &:last-child {
-    margin-right: 0;
-  }
-}
-.bmS__link {
-  color: #5b5b5b;
-  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:active,
-  &:hover {
-    color: #f6973f;
-  }
-}
-.bmS__tel {
-  display: flex;
-  justify-content: center;
-  padding-top: 32px;
-}
-
-.socialIconBM {
-  min-width: 42px;
-  min-height: 42px;
 }

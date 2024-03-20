@@ -44,7 +44,7 @@ function IndividualFurniture() {
             <div className={css.rectangleCF3}></div>
           </div>
 
-          <button type="button" className={css.btn}>
+          <button type="button" className="btn">
             Индивидуальная мебель
           </button>
         </div>
