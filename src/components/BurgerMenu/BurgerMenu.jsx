@@ -1,5 +1,8 @@
 import React from "react";
 import { IoCloseOutline } from "react-icons/io5";
+import { BsInstagram } from "react-icons/bs";
+import { RiFacebookFill } from "react-icons/ri";
+import { FaTelegramPlane } from "react-icons/fa";
 
 import css from "./BurgerMenu.module.css";
 
@@ -68,9 +71,7 @@ function BurgerMenu({ isMenuOpen, toggleMenu }) {
                   rel="noopener nofollow noreferrer"
                   className={css.bmS__link}
                 >
-                  <svg width="42" height="42">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
+                  <BsInstagram className={css.socialIconBM} />
                 </a>
               </li>
               <li className={css.bmS__item}>
@@ -80,9 +81,7 @@ function BurgerMenu({ isMenuOpen, toggleMenu }) {
                   rel="noopener nofollow noreferrer"
                   className={css.bmS__link}
                 >
-                  <svg width="42" height="42">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
+                  <RiFacebookFill className={css.socialIconBM} />
                 </a>
               </li>
               <li className={css.bmS__item}>
@@ -92,13 +91,11 @@ function BurgerMenu({ isMenuOpen, toggleMenu }) {
                   rel="noopener noreferrer"
                   className={css.bmS__link}
                 >
-                  <svg width="42" height="42">
-                    <use href="./images/icons.svg#icon-telegram"></use>
-                  </svg>
+                  <FaTelegramPlane className={css.socialIconBM} />
                 </a>
               </li>
             </ul>
-            <div className="bm-s__tel">
+            <div className={css.bmS__tel}>
               <a href="tel:+380996384537" className={css.bmS__link}>
                 +38 (099)-638-45-37
               </a>
