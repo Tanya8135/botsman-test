@@ -49,10 +49,3 @@ html.sr .load-hidden {
     background-color: #dd8839;
   }
 }
-
-.swiperSlide {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1px;
-}
