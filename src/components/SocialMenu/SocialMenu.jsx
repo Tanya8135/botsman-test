@@ -3,7 +3,7 @@ import { BsInstagram } from "react-icons/bs";
 import { RiFacebookFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
 
-import css from "./BurgerMenuSocial.module.css";
+import css from "./SocialMenu.module.css";
 
 function BurgerMenuSocial() {
   return (

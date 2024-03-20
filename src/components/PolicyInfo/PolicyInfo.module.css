@@ -1,0 +1,16 @@
+.policyInfoBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 52px;
+}
+
+.policyInfo {
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.policyInfo__transform {
+  text-transform: uppercase;
+}

@@ -4,7 +4,7 @@ import React from "react";
 import css from "./BurgerMenu.module.css";
 import BtnClose from "./BtnClose/BtnClose";
 import BurgerMenuBox from "./BurgerMenuBox/BurgerMenuBox";
-import BurgerMenuSocial from "./BurgerMenuSocial/BurgerMenuSocial";
+import BurgerMenuSocial from "../SocialMenu/SocialMenu";
 
 function BurgerMenu({ isMenuOpen, toggleMenu }) {
   return (
