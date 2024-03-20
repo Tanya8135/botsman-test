@@ -73,7 +73,7 @@ function Form() {
                   </label>
                 </div>
 
-                <button type="button" className={css.btn}>
+                <button type="button" className="btn">
                   Запросить звонок
                 </button>
               </form>

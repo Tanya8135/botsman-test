@@ -12,11 +12,8 @@ function Hero() {
         </h1>
 
         <HeroSlider />
-
-        <div className={css.btnBox}>
-          <button className={`${css.btn} ${css.heroBtn}`}>
-            Перейти в каталог
-          </button>
+        <div className="btnBox">
+          <button className="btn">Перейти в каталог</button>
         </div>
       </div>
     </section>
