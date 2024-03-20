@@ -50,3 +50,7 @@ address {
 .swiper-pagination-bullet-active {
   background-color: #f6973f !important;
 }
+
+.swiper-scrollbar-drag {
+  background-color: #f6973f !important;
+}
