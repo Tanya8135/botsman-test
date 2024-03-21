@@ -1,0 +1,44 @@
+.individFurnitereBox {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 515px;
+}
+
+.rectangleCF2 {
+  position: absolute;
+  bottom: -59px;
+  right: 0px;
+  background-color: #e7e7e7;
+  min-width: 287px;
+  min-height: 260px;
+}
+
+.gridCF {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  min-width: 287px;
+  min-height: 260px;
+}
+
+.ifImg {
+  position: relative;
+  top: 0px;
+  width: 340px;
+  height: 239px;
+  background-color: rgb(171, 166, 206);
+  margin: 0 auto;
+  margin-bottom: 92px;
+  z-index: 1;
+}
+
+.rectangleCF3 {
+  position: absolute;
+  content: "";
+  background-color: #f6973f;
+  bottom: -16px;
+  left: 55px;
+  min-width: 67px;
+  min-height: 42px;
+}
