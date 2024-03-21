@@ -1,0 +1,38 @@
+.lpCatalogBox {
+  padding-bottom: 32px;
+  max-width: 250px;
+
+  &:hover .lpCatalog {
+    transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #403730;
+  }
+
+  &:hover .lpArrow {
+    transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #f6973f;
+  }
+}
+
+.lpCatalog {
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  display: flex;
+  padding: 5px;
+  color: #f6973f;
+  cursor: none;
+  outline: none;
+}
+
+.lpArrow {
+  color: #525252;
+  margin-left: 8px;
+}
+
+.arrowNext {
+  position: absolute;
+  top: 57px;
+  min-width: 24px;
+  min-height: 24px;
+}
