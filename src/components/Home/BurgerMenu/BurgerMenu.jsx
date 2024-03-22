@@ -1,9 +1,9 @@
 import React from "react";
 
 import css from "./BurgerMenu.module.css";
-import BtnClose from "./BtnClose/BtnClose";
-import BurgerMenuBox from "./BurgerMenuBox/BurgerMenuBox";
-import BurgerMenuSocial from "components/SocialMenu/SocialMenu";
+import BtnClose from "./BtnClose";
+import BurgerMenuBox from "./BurgerMenuBox";
+import BurgerMenuSocial from "../SocialMenu";
 
 function BurgerMenu({ isMenuOpen, toggleMenu }) {
   return (
