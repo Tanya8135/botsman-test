@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import css from "./BurgerMenuBox.module.css";
 
@@ -8,9 +9,9 @@ function BurgerMenuBox() {
       <div className={css.burgerMenu__box}>
         <ul className={css.burgerMenu__list}>
           <li className={css.burgerMenu__item}>
-            <a href="/catalog.html" className={css.burgerMenu__link}>
+            <NavLink to="/catalog" className={css.burgerMenu__link}>
               Каталог
-            </a>
+            </NavLink>
           </li>
           <li className={css.burgerMenu__item}>
             <a href="#individ-furniture" className={css.burgerMenu__link}>

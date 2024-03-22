@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import css from "./Footer.module.css";
 import logoMaxFooter from "../../img/logoBotsmanMax.svg";
@@ -17,9 +18,9 @@ function Footer() {
         <SocialMenu />
 
         <div className={css.logoFooter}>
-          <a href="./index.html">
+          <NavLink to="/botsman-test" className={css.logoFooter}>
             <img src={logoMaxFooter} alt="logo" />
-          </a>
+          </NavLink>
         </div>
 
         <PolicyInfo />
