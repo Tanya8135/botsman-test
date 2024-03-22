@@ -1,12 +1,12 @@
-import Header from "components/Header/Header"
+// import Header from "components/Header/Header"
 import { NavLink } from "react-router-dom"
 
 export default function Catalog() {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <h1>TEST TEST TEST</h1>
-            <NavLink to="/index.html">Back</NavLink>
+            <NavLink to="/">Back</NavLink>
         </div>
     )
 }

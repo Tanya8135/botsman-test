@@ -3,7 +3,7 @@ import { SlPhone } from "react-icons/sl";
 import { FiMenu } from "react-icons/fi";
 
 import css from "./HeaderNav.module.css";
-import BurgerMenu from "components/BurgerMenu/BurgerMenu";
+import BurgerMenu from "components/Home/BurgerMenu/BurgerMenu";
 
 function HeaderNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

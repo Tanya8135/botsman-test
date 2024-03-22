@@ -1,7 +1,7 @@
 import React from "react";
 
 import css from "./Header.module.css";
-import HeaderNav from "components/Header/HeaderNav/HeaderNav";
+import HeaderNav from "./HeaderNav/HeaderNav";
 import HeaderLogo from "./HeaderLogo/HeaderLogo";
 
 function Header() {

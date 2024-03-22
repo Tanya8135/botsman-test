@@ -1,10 +1,9 @@
 import React from "react";
-// import { IoCloseOutline } from "react-icons/io5";
 
 import css from "./BurgerMenu.module.css";
 import BtnClose from "./BtnClose/BtnClose";
 import BurgerMenuBox from "./BurgerMenuBox/BurgerMenuBox";
-import BurgerMenuSocial from "../SocialMenu/SocialMenu";
+import BurgerMenuSocial from "components/SocialMenu/SocialMenu";
 
 function BurgerMenu({ isMenuOpen, toggleMenu }) {
   return (
