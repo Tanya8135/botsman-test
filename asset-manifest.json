@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/botsman-test/static/css/main.8b396ed8.css",
-    "main.js": "/botsman-test/static/js/main.498873cc.js",
-    "static/js/453.df9f3bb3.chunk.js": "/botsman-test/static/js/453.df9f3bb3.chunk.js",
+    "main.css": "/botsman-test/static/css/main.68e8af01.css",
+    "main.js": "/botsman-test/static/js/main.7abfc22e.js",
+    "static/css/689.35926462.chunk.css": "/botsman-test/static/css/689.35926462.chunk.css",
+    "static/js/689.7ff49590.chunk.js": "/botsman-test/static/js/689.7ff49590.chunk.js",
+    "static/js/256.f6a265bd.chunk.js": "/botsman-test/static/js/256.f6a265bd.chunk.js",
+    "static/js/635.80bf5ff2.chunk.js": "/botsman-test/static/js/635.80bf5ff2.chunk.js",
     "static/media/logoBotsmanMin.svg": "/botsman-test/static/media/logoBotsmanMin.2e84ece340b47e58b8dc5479b8ac83ee.svg",
     "static/media/logoBotsmanMax.svg": "/botsman-test/static/media/logoBotsmanMax.243ca9dd2c4c3e576b36a456987b94ea.svg",
     "index.html": "/botsman-test/index.html",
     "static/media/checkmark.svg": "/botsman-test/static/media/checkmark.16e8b909005526641b40.svg",
-    "main.8b396ed8.css.map": "/botsman-test/static/css/main.8b396ed8.css.map",
-    "main.498873cc.js.map": "/botsman-test/static/js/main.498873cc.js.map",
-    "453.df9f3bb3.chunk.js.map": "/botsman-test/static/js/453.df9f3bb3.chunk.js.map"
+    "main.68e8af01.css.map": "/botsman-test/static/css/main.68e8af01.css.map",
+    "main.7abfc22e.js.map": "/botsman-test/static/js/main.7abfc22e.js.map",
+    "689.35926462.chunk.css.map": "/botsman-test/static/css/689.35926462.chunk.css.map",
+    "689.7ff49590.chunk.js.map": "/botsman-test/static/js/689.7ff49590.chunk.js.map",
+    "256.f6a265bd.chunk.js.map": "/botsman-test/static/js/256.f6a265bd.chunk.js.map",
+    "635.80bf5ff2.chunk.js.map": "/botsman-test/static/js/635.80bf5ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b396ed8.css",
-    "static/js/main.498873cc.js"
+    "static/css/main.68e8af01.css",
+    "static/js/main.7abfc22e.js"
   ]
 }
