@@ -1,33 +1,3 @@
-.sectionTitle {
-  font-size: 22px;
-  line-height: 1;
-  font-weight: 700;
-  color: #f9f9f9;
-  padding: 78px 0 20px 0;
-}
-.sectionTitle__dark {
-  font-size: 22px;
-  line-height: 1;
-  font-weight: 700;
-  color: #2c2b29;
-  padding: 78px 0 20px 0;
-}
-.sectionTitle__ourHistory {
-  position: absolute;
-  /* top: -52; */
-  margin-top: -52px;
-  left: 18px;
-  padding: 0;
-}
-
-.sectionSubtitle__ourHistory {
-  padding-top: 48px;
-}
-
-.letter {
-  color: #f6973f;
-}
-
 .ourHistoryTextBox {
   padding: 0 18px;
 }

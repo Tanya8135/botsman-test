@@ -1,33 +1,3 @@
 .individFurnitereTextBox {
   padding: 0 18px;
 }
-
-.sectionTitle {
-  font-size: 22px;
-  line-height: 1;
-  font-weight: 700;
-  color: #f9f9f9;
-  padding: 78px 0 20px 0;
-}
-
-.letter {
-  color: #f6973f;
-}
-
-.sectionSubtitle {
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: 0.08em;
-  font-weight: 500;
-  color: #f9f9f9;
-  padding-bottom: 12px;
-}
-
-.sectionText {
-  font-size: 14px;
-  line-height: 1.4;
-  letter-spacing: 0.15em;
-  font-weight: 300;
-  color: #f9f9f9;
-  padding-bottom: 68px;
-}

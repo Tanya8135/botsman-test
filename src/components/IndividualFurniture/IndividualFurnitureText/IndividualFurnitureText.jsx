@@ -4,12 +4,12 @@ function IndividualFurnitureText() {
   return (
     <div>
       <div className={css.individFurnitereTextBox}>
-        <h2 className={css.sectionTitle}>
-          <span className={css.letter}>И</span>ндивидуальная мебель
+        <h2 className="sectionTitle">
+          <span className="letter">И</span>ндивидуальная мебель
         </h2>
-        <p className={css.sectionSubtitle}>Полный цикл производства.</p>
+        <p className="sectionSubtitle">Полный цикл производства.</p>
 
-        <p className={css.sectionText}>
+        <p className="sectionText">
           Качество мягкой мебели начинается задолго до начала ее производства.
         </p>
       </div>
