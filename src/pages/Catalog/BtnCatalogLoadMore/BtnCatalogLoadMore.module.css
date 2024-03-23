@@ -1,0 +1,28 @@
+.btnLoadMore {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: #403730;
+  background-color: transparent;
+  outline: none;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.btnLoadMore__arrow {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.nextArrov {
+  min-width: 24px;
+  min-height: 24px;
+  color: #403730;
+}

@@ -1,11 +1,15 @@
 .catalogBtnBack {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 23px;
   color: rgb(80, 142, 19);
   font-weight: 700;
   border: 1px solid rgb(76, 25, 205);
   border-radius: 10px;
   padding: 5px;
+}
+
+.catalogContainer {
+  padding: 0 17px 70px 17px;
 }

@@ -12,7 +12,7 @@ function Search() {
               className={css.searchForm__input}
               type="text"
               name="searchQuery"
-              autocomplete="off"
+              autoComplete="off"
               placeholder="Пошук"
             />
 

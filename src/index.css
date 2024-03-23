@@ -136,3 +136,8 @@ address {
   color: #f9f9f9;
   padding-bottom: 68px;
 }
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
