@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-import Search from "./Search";
-import PoufContent from "./PoufContent";
+import Search from "components/Catalog/Search";
+import PoufContent from "components/Catalog/PoufContent";
 
 import css from "./Catalog.module.css";
 
