@@ -4,10 +4,12 @@ import listPouf from "js/PoufsList";
 import css from "./PoufContent.module.css";
 
 import BtnCatalogLoadMore from "../BtnCatalogLoadMore";
+import BtnCloseCatalog from "../BtnCloseCatalog";
 
 function PoufContent() {
   const [addImg, setAddImg] = useState([]);
   const [startIndex, setStartIndex] = useState(0);
+  const [showLoadMore, setShowLoadMore] = useState(true);
 
   const handleLoadMoreClick = () => {
     const nextIndex = startIndex + 4;
@@ -15,10 +17,18 @@ function PoufContent() {
     if (nextIndex >= listPouf.length) {
       setAddImg([...addImg, ...listPouf.slice(startIndex)]);
       setStartIndex(listPouf.length);
+      setShowLoadMore(false);
     } else {
       setAddImg([...addImg, ...listPouf.slice(startIndex, nextIndex)]);
       setStartIndex(nextIndex);
     }
+  };
+
+  const handleCloseCatalof = () => {
+    const displayShow = 0;
+    setAddImg(listPouf.slice(0, displayShow));
+    setStartIndex(displayShow);
+    setShowLoadMore(true);
   };
   return (
     <div>
@@ -104,11 +114,14 @@ function PoufContent() {
           ))}
         </ul>
       </div>
-      <BtnCatalogLoadMore
-        onClick={handleLoadMoreClick}
-        disabled={startIndex >= listPouf.length}
-        isClose={startIndex >= listPouf.length}
-      />
+      {showLoadMore ? (
+        <BtnCatalogLoadMore
+          onClick={handleLoadMoreClick}
+          disabled={startIndex >= listPouf.length}
+        />
+      ) : (
+        <BtnCloseCatalog onClick={handleCloseCatalof} />
+      )}
     </div>
   );
 }
