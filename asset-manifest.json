@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/botsman-test/static/css/main.c9b3b312.css",
-    "main.js": "/botsman-test/static/js/main.820a580f.js",
+    "main.js": "/botsman-test/static/js/main.8f0e71c8.js",
     "static/css/689.9f3d4ccf.chunk.css": "/botsman-test/static/css/689.9f3d4ccf.chunk.css",
     "static/js/689.0bd44036.chunk.js": "/botsman-test/static/js/689.0bd44036.chunk.js",
-    "static/css/60.467adf7e.chunk.css": "/botsman-test/static/css/60.467adf7e.chunk.css",
-    "static/js/60.cefb3119.chunk.js": "/botsman-test/static/js/60.cefb3119.chunk.js",
+    "static/css/913.ca6b5b7b.chunk.css": "/botsman-test/static/css/913.ca6b5b7b.chunk.css",
+    "static/js/913.2b39c81d.chunk.js": "/botsman-test/static/js/913.2b39c81d.chunk.js",
     "static/js/635.80bf5ff2.chunk.js": "/botsman-test/static/js/635.80bf5ff2.chunk.js",
     "static/js/980.1d566b31.chunk.js": "/botsman-test/static/js/980.1d566b31.chunk.js",
     "static/media/logoBotsmanMin.svg": "/botsman-test/static/media/logoBotsmanMin.2e84ece340b47e58b8dc5479b8ac83ee.svg",
@@ -13,16 +13,16 @@
     "index.html": "/botsman-test/index.html",
     "static/media/checkmark.svg": "/botsman-test/static/media/checkmark.16e8b909005526641b40.svg",
     "main.c9b3b312.css.map": "/botsman-test/static/css/main.c9b3b312.css.map",
-    "main.820a580f.js.map": "/botsman-test/static/js/main.820a580f.js.map",
+    "main.8f0e71c8.js.map": "/botsman-test/static/js/main.8f0e71c8.js.map",
     "689.9f3d4ccf.chunk.css.map": "/botsman-test/static/css/689.9f3d4ccf.chunk.css.map",
     "689.0bd44036.chunk.js.map": "/botsman-test/static/js/689.0bd44036.chunk.js.map",
-    "60.467adf7e.chunk.css.map": "/botsman-test/static/css/60.467adf7e.chunk.css.map",
-    "60.cefb3119.chunk.js.map": "/botsman-test/static/js/60.cefb3119.chunk.js.map",
+    "913.ca6b5b7b.chunk.css.map": "/botsman-test/static/css/913.ca6b5b7b.chunk.css.map",
+    "913.2b39c81d.chunk.js.map": "/botsman-test/static/js/913.2b39c81d.chunk.js.map",
     "635.80bf5ff2.chunk.js.map": "/botsman-test/static/js/635.80bf5ff2.chunk.js.map",
     "980.1d566b31.chunk.js.map": "/botsman-test/static/js/980.1d566b31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9b3b312.css",
-    "static/js/main.820a580f.js"
+    "static/js/main.8f0e71c8.js"
   ]
 }
