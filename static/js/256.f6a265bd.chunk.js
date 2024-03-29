@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkbotsman_test=self.webpackChunkbotsman_test||[]).push([[256],{256:(s,e,t)=>{t.r(e),t.d(e,{default:()=>r});var n=t(475),c=t(579);function r(){return(0,c.jsxs)("div",{children:[(0,c.jsx)("h1",{children:"TEST TEST TEST"}),(0,c.jsx)(n.k2,{to:"/",children:"Back"})]})}}}]);
-//# sourceMappingURL=256.f6a265bd.chunk.js.map
