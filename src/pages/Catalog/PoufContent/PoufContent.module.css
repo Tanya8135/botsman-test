@@ -1,0 +1,23 @@
+.catalogPoufs__title {
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  color: #403730;
+  text-transform: uppercase;
+  padding: 0 0 32px 15px;
+}
+
+.catalogList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 52px;
+  max-width: 340px;
+  margin: 0 auto;
+  padding-bottom: 52px;
+}
+
+.catalogItem {
+  transform: translateX(0.5px);
+}
