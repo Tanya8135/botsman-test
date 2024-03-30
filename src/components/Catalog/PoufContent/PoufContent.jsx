@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import useBtnLdMrCl from "hooks/useBtnLdMrCl";
 import listPouf from "js/PoufsList";
 
 import css from "./PoufContent.module.css";
@@ -7,29 +8,8 @@ import BtnCatalogLoadMore from "../BtnCatalogLoadMore";
 import BtnCloseCatalog from "../BtnCloseCatalog";
 
 function PoufContent() {
-  const [addImg, setAddImg] = useState([]);
-  const [startIndex, setStartIndex] = useState(0);
-  const [showLoadMore, setShowLoadMore] = useState(true);
-
-  const handleLoadMoreClick = () => {
-    const nextIndex = startIndex + 4;
-
-    if (nextIndex >= listPouf.length) {
-      setAddImg([...addImg, ...listPouf.slice(startIndex)]);
-      setStartIndex(listPouf.length);
-      setShowLoadMore(false);
-    } else {
-      setAddImg([...addImg, ...listPouf.slice(startIndex, nextIndex)]);
-      setStartIndex(nextIndex);
-    }
-  };
-
-  const handleCloseCatalof = () => {
-    const displayShow = 0;
-    setAddImg(listPouf.slice(0, displayShow));
-    setStartIndex(displayShow);
-    setShowLoadMore(true);
-  };
+  const { addImg, showLoadMore, handleLoadMoreClick, handleCloseCatalof } =
+    useBtnLdMrCl(listPouf);
   return (
     <div>
       <div className={css.catalogPoufs}>
@@ -115,10 +95,7 @@ function PoufContent() {
         </ul>
       </div>
       {showLoadMore ? (
-        <BtnCatalogLoadMore
-          onClick={handleLoadMoreClick}
-          disabled={startIndex >= listPouf.length}
-        />
+        <BtnCatalogLoadMore onClick={handleLoadMoreClick} />
       ) : (
         <BtnCloseCatalog onClick={handleCloseCatalof} />
       )}
