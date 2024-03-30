@@ -1,5 +1,5 @@
 import React from "react";
-import useBtnLdMrCl from "hooks/useBtnLdMrCl";
+import usePoufBtns from "hooks/usePoufBtns";
 import listPouf from "js/PoufsList";
 
 import css from "./PoufContent.module.css";
@@ -9,7 +9,7 @@ import BtnCloseCatalog from "../BtnCloseCatalog";
 
 function PoufContent() {
   const { addImg, showLoadMore, handleLoadMoreClick, handleCloseCatalof } =
-    useBtnLdMrCl(listPouf);
+    usePoufBtns(listPouf);
   return (
     <div>
       <div className={css.catalogPoufs}>

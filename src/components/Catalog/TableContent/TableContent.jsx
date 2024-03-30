@@ -1,8 +1,14 @@
+import useTableBtns from "hooks/useTableBtns";
+import listTable from "js/itemTables";
+
 import css from "../PoufContent/PoufContent.module.css";
 
 import BtnCatalogLoadMore from "../BtnCatalogLoadMore";
+import BtnCloseCatalog from "../BtnCloseCatalog";
 
 function TableContent() {
+  const { addImg, showLoadMore, handleLoadMoreClick, handleCloseCatalof } =
+    useTableBtns(listTable);
   return (
     <div>
       <div className={css.catalogTable}>
@@ -60,9 +66,25 @@ function TableContent() {
               />
             </article>
           </li>
+          {addImg.map((image, index) => (
+            <li key={index} className={css.catalogItem}>
+              <article>
+                <img
+                  src={image.src}
+                  srcSet={image.srcSet}
+                  sizes={image.sizes}
+                  alt={image.alt}
+                />
+              </article>
+            </li>
+          ))}
         </ul>
       </div>
-      <BtnCatalogLoadMore />
+      {showLoadMore ? (
+        <BtnCatalogLoadMore onClick={handleLoadMoreClick} />
+      ) : (
+        <BtnCloseCatalog onClick={handleCloseCatalof} />
+      )}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import listPouf from "js/PoufsList";
+import listTable from "js/itemTables";
 
-const useBtnLdMrCl = () => {
+const useTableBtns = () => {
     const [addImg, setAddImg] = useState([]);
     const [startIndex, setStartIndex] = useState(0);
     const [showLoadMore, setShowLoadMore] = useState(true);
@@ -9,19 +9,19 @@ const useBtnLdMrCl = () => {
     const handleLoadMoreClick = () => {
         const nextIndex = startIndex + 4;
 
-        if (nextIndex >= listPouf.length) {
-            setAddImg([...addImg, ...listPouf.slice(startIndex)]);
-            setStartIndex(listPouf.length);
+        if (nextIndex >= listTable.length) {
+            setAddImg([...addImg, ...listTable.slice(startIndex)]);
+            setStartIndex(listTable.length);
             setShowLoadMore(false);
         } else {
-            setAddImg([...addImg, ...listPouf.slice(startIndex, nextIndex)]);
+            setAddImg([...addImg, ...listTable.slice(startIndex, nextIndex)]);
             setStartIndex(nextIndex);
         }
     };
 
     const handleCloseCatalof = () => {
         const displayShow = 0;
-        setAddImg(listPouf.slice(0, displayShow));
+        setAddImg(listTable.slice(0, displayShow));
         setStartIndex(displayShow);
         setShowLoadMore(true);
     };
@@ -34,4 +34,4 @@ const useBtnLdMrCl = () => {
     }
 }
 
-export default useBtnLdMrCl;
+export default useTableBtns;
