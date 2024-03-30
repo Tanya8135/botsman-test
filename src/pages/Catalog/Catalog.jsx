@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 
 import Search from "components/Catalog/Search";
 import PoufContent from "components/Catalog/PoufContent";
+import SofaContent from "components/Catalog/SofaContent";
+import TableContent from "components/Catalog/TableContent";
 
 import css from "./Catalog.module.css";
 
@@ -17,6 +19,8 @@ export default function Catalog() {
 
           <Search />
           <PoufContent />
+          <SofaContent />
+          <TableContent />
         </div>
       </section>
     </div>
