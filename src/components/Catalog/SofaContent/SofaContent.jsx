@@ -2,7 +2,7 @@ import css from "../PoufContent/PoufContent.module.css";
 
 function SofaContent() {
   return (
-    <div>
+    <div className={css.catalogContainer}>
       <div className={css.catalogSofa}>
         <h2 className={css.catalogPoufs__title}>Дивани</h2>
         <ul className={css.catalogList}>

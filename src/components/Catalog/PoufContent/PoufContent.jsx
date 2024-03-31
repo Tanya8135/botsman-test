@@ -11,7 +11,7 @@ function PoufContent() {
   const { addImg, showLoadMore, handleLoadMoreClick, handleCloseCatalof } =
     usePoufBtns(listPouf);
   return (
-    <div>
+    <div className={css.catalogContainer}>
       <div className={css.catalogPoufs}>
         <h2 className={css.catalogPoufs__title}>Пуфи</h2>
 

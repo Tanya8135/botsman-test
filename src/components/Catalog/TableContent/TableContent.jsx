@@ -10,7 +10,7 @@ function TableContent() {
   const { addImg, showLoadMore, handleLoadMoreClick, handleCloseCatalof } =
     useTableBtns(listTable);
   return (
-    <div>
+    <div className={css.catalogContainer}>
       <div className={css.catalogTable}>
         <h2 className={css.catalogPoufs__title}>Столи</h2>
         <ul className={css.catalogList}>

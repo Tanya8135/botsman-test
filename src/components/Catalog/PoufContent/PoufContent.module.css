@@ -21,3 +21,7 @@
 .catalogItem {
   transform: translateX(0.5px);
 }
+
+.catalogContainer {
+  padding: 0 17px;
+}

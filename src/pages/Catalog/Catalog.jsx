@@ -4,6 +4,7 @@ import Search from "components/Catalog/Search";
 import PoufContent from "components/Catalog/PoufContent";
 import SofaContent from "components/Catalog/SofaContent";
 import TableContent from "components/Catalog/TableContent";
+import Footer from "components/Home/Footer";
 
 import css from "./Catalog.module.css";
 
@@ -11,7 +12,7 @@ export default function Catalog() {
   return (
     <div>
       <section className={css.catalog}>
-        <div className={`${css.catalogContainer} ${"container"}`}>
+        <div className={"container"}>
           {/* for deletion */}
           <NavLink to="/" className={css.catalogBtnBack}>
             Back
@@ -21,6 +22,7 @@ export default function Catalog() {
           <PoufContent />
           <SofaContent />
           <TableContent />
+          <Footer />
         </div>
       </section>
     </div>
