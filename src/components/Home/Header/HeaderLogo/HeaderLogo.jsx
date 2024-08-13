@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../../../../img/logoBotsmanMin.svg'
+import logo from "../../../../img/logoBotsmanMin.svg";
 
 import css from "./HeaderLogo.module.css";
 
